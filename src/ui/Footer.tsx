@@ -15,7 +15,7 @@ const navigation = {
     { name: "Preguntas Frecuentes", to: "#" },
   ],
   company: [
-    { name: "Sobre Nosotros", to: "#" },
+    { name: "Sobre Nosotros", to: "/about" },
     { name: "Blog", to: "#" },
     { name: "Carreras", to: "#" },
     { name: "Prensa", to: "#" },
