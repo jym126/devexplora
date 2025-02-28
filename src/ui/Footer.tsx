@@ -10,7 +10,7 @@ const navigation = {
     { name: "Consultoría", to: "#" },
   ],
   support: [
-    { name: "Contacto", to: "#" },
+    { name: "Contacto", to: "/contact" },
     { name: "Documentación", to: "#" },
     { name: "Preguntas Frecuentes", to: "#" },
   ],
