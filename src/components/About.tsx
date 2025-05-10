@@ -3,7 +3,7 @@ import React from "react";
 interface TeamMemberProps {
   name: string;
   role: string;
-  bio: string;
+  bio: string[];
   photoUrl: string;
 }
 
