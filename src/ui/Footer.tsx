@@ -10,12 +10,12 @@ const navigation = {
     { name: "Consultoría", to: "#" },
   ],
   support: [
-    { name: "Contacto", to: "#" },
+    { name: "Contacto", to: "/contact" },
     { name: "Documentación", to: "#" },
     { name: "Preguntas Frecuentes", to: "#" },
   ],
   company: [
-    { name: "Sobre Nosotros", to: "#" },
+    { name: "Sobre Nosotros", to: "/about" },
     { name: "Blog", to: "#" },
     { name: "Carreras", to: "#" },
     { name: "Prensa", to: "#" },

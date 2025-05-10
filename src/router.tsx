@@ -5,6 +5,7 @@ import ServicesView from "./views/ServicesView";
 import SolutionsView from "./views/SolutionsView";
 import ResourcesView from "./views/ResourcesView";
 import ContactView from "./views/ContactView";
+import AboutView from "./views/AboutView";
 import Learning from "./components/learning/Learning";
 import CRMDetails from "./components/crm/CRMDetails";
 import FreeTrial from "./components/crm/FreeTrial";
@@ -60,6 +61,10 @@ export const router = createBrowserRouter([
       {
         path: "/contact",
         element: <ContactView />,
+      },
+      {
+        path: "/about",
+        element: <AboutView />,
       },
     ],
   },
