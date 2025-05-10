@@ -28,7 +28,7 @@ export default function Contact() {
     }
 
     // EmailJS configuration
-    const serviceID = "service_w5he7q4";
+    const serviceID = "service_6k5ktpl";
     const templateID = "template_hia7dee";
     const userID = "s_QfeXZJLKKiwrNGY";
 
