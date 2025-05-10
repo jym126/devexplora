@@ -23,7 +23,7 @@ export default function Contact() {
     e.preventDefault();
 
     if (!agreed) {
-      setStatus("Please agree to the privacy policy.");
+      setStatus("Por favor, acepte las politicas de privacidad.");
       return;
     }
 
