@@ -7,9 +7,9 @@ export default function DevExplora() {
             Soluciones Web y Enseñanza en Línea
           </h2>
           <p className="mx-auto mt-6 max-w-xl text-pretty text-lg/8 text-gray-300">
-            En DevExplora, combinamos tecnología e innovación para resolver problemas 
-            mediante aplicaciones web efectivas y programas de enseñanza en línea 
-            diseñados para transformar ideas en realidad.
+            En DevExplora, combinamos tecnología e innovación para resolver
+            problemas mediante aplicaciones web efectivas y programas de
+            enseñanza en línea diseñados para transformar ideas en realidad.
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <a
@@ -18,7 +18,10 @@ export default function DevExplora() {
             >
               Empezar Ahora
             </a>
-            <a href="#learn-more" className="text-sm/6 font-semibold text-white">
+            <a
+              href="#learn-more"
+              className="text-sm/6 font-semibold text-white"
+            >
               Más Información <span aria-hidden="true">→</span>
             </a>
           </div>
