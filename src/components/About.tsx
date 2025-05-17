@@ -33,12 +33,12 @@ const AboutUs: React.FC = () => {
       name: "Miguel Martínez",
       role: "Desarrollador Frontend",
       bio: [
-        "Apasionado por la creación de interfaces de usuario intuitivas, atractivas y altamente funcionales.",
-        " Dominio de tecnologías modernas como HTML5, CSS3, JavaScript, ",
-        "TypeScript y frameworks avanzados como React, permitiendo el desarrollo de aplicaciones dinámicas y escalables.",
-        "Con experiencia en la implementación de componentes reutilizables, sistemas de diseño y accesibilidad web (WCAG)",
-        "Hábil en la optimización del rendimiento a través",
-        "de técnicas como lazy loading, code splitting y minificación, mejorando la velocidad de carga y la eficiencia del sitio.",
+        "Apasionado por la creación de interfaces de usuario intuitivas, atractivas y altamente funcionales. ",
+        "Dominio de tecnologías modernas como HTML5, CSS3, JavaScript, ",
+        "TypeScript y frameworks avanzados como React, permitiendo el desarrollo de aplicaciones dinámicas y escalables. ",
+        "Con experiencia en la implementación de componentes reutilizables, sistemas de diseño y accesibilidad web (WCAG) ",
+        "Hábil en la optimización del rendimiento a través ",
+        "de técnicas como lazy loading, code splitting y minificación, mejorando la velocidad de carga y la eficiencia del sitio. ",
       ],
       photoUrl: "/miguel.jpg",
     },
@@ -46,10 +46,10 @@ const AboutUs: React.FC = () => {
       name: "Jose Martínez",
       role: "Desarrollador Backend",
       bio: [
-        "Experto en el diseño, desarrollo y optimización de arquitecturas de servidores,",
-        "APIs y bases de datos. Especializado en la creación de soluciones escalables, seguras",
+        "Experto en el diseño, desarrollo y optimización de arquitecturas de servidores, ",
+        "APIs y bases de datos. Especializado en la creación de soluciones escalables, seguras ",
         "y de alto rendimiento para aplicaciones web y móviles. Amplia experiencia en la implementación de microservicios, ",
-        "desarrollo basado en la nube y optimización de bases de datos para mejorar la eficiencia y la velocidad de respuesta de las aplicaciones.",
+        "desarrollo basado en la nube y optimización de bases de datos para mejorar la eficiencia y la velocidad de respuesta de las aplicaciones. ",
         "Hábil en la integración de sistemas mediante API REST y GraphQL, garantizando la interoperabilidad y el acceso eficiente a los datos.",
       ],
       photoUrl: "/jose-min.jpg",
@@ -58,10 +58,10 @@ const AboutUs: React.FC = () => {
       name: "Luis Martínez",
       role: "Desarrollador de Software",
       bio: [
-        "Desarrollador de software especializado en aplicaciones multiplataforma con experiencia en el diseño,",
-        "desarrollo y mantenimiento de soluciones eficientes y escalables. Apasionado por la innovación tecnológica,",
-        "el desarrollo ágil y la creación de experiencias de usuario optimizadas en distintos dispositivos y sistemas operativos.",
-        "Desarrollo de aplicaciones móviles y de escritorio con Flutter y React Native. Implementación de soluciones escalables y optimización",
+        "Desarrollador de software especializado en aplicaciones multiplataforma con experiencia en el diseño, ",
+        "desarrollo y mantenimiento de soluciones eficientes y escalables. Apasionado por la innovación tecnológica, ",
+        "el desarrollo ágil y la creación de experiencias de usuario optimizadas en distintos dispositivos y sistemas operativos. ",
+        "Desarrollo de aplicaciones móviles y de escritorio con Flutter y React Native. Implementación de soluciones escalables y optimización ",
         "de rendimiento en dispositivos iOS y Android. Colaboración con equipos multidisciplinarios en proyectos de software ágil.",
       ],
       photoUrl: "/luis.jpg",
@@ -75,8 +75,9 @@ const AboutUs: React.FC = () => {
           Sobre Nosotros
         </h1>
         <p className="text-lg text-gray-600 mb-12">
-          Somos un equipo de desarrolladores y diseñadores apasionados por crear
-          soluciones innovadoras y de alta calidad.
+          En Devexplor, somos un equipo multidisciplinario de desarrolladores y diseñadores unidos por la pasión por la innovación.
+          Nos especializamos en crear soluciones tecnológicas de alta calidad que combinan funcionalidad, diseño y experiencia de usuario. 
+          Nuestra misión es transformar ideas en productos digitales que generen impacto real, aportando creatividad, rigor técnico y compromiso en cada proyecto.
         </p>
         <div className="flex flex-wrap justify-center gap-12">
           {teamMembers.map((member, index) => (

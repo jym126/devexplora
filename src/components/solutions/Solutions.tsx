@@ -25,7 +25,7 @@ export default function Solutions() {
     },
     {
       name: "Portal Inmoviliario",
-      description: "administración de fincas y propiedades en una plataforma intuitiva y elegante.",
+      description: "Administración de fincas y propiedades en una plataforma intuitiva y elegante.",
       link: "/inmobiliaria",
     },
     {
