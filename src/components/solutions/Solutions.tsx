@@ -24,6 +24,11 @@ export default function Solutions() {
       link: "/crm-seguridad",
     },
     {
+      name: "Portal Inmoviliario",
+      description: "administración de fincas y propiedades en una plataforma intuitiva y elegante.",
+      link: "/inmobiliaria",
+    },
+    {
       name: "Aplicaciones a Medida",
       description: "Desarrollo de software personalizado para tu negocio.",
       link: "/a-medida",
