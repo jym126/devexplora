@@ -1,6 +1,7 @@
+import Resources from "@/components/Resources"
 
 export default function ResourcesView() {
   return (
-    <div>ResourcesView</div>
+    <div><Resources /></div>
   )
 }

@@ -15,7 +15,7 @@ export default function Learning() {
     {
       name: "React.js para Principiantes",
       description:
-        "Aprende React desde cero: componentes, estado, hooks, rutas y más. Crea aplicaciones web dinámicas y escalables con una base sólida en desarrollo frontend.",
+        "Aprende React desde cero: componentes, estado, hooks, rutas y más. Crea aplicaciones web dinámicas y escalables con una base sólida.",
       link: "/react",
     },
   ];
@@ -23,7 +23,7 @@ export default function Learning() {
   return (
     <div className="max-w-7xl mx-auto px-4 py-10">
       <h2 className="text-3xl font-bold mb-8">
-        Nuestros Cursos
+        📚Nuestros Cursos
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {products.map((product, index) => (
