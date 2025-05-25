@@ -11,7 +11,9 @@ import CRMDetails from "./components/crm/CRMDetails";
 import FreeTrial from "./components/crm/FreeTrial";
 import Videos from "./components/crm/Videos";
 import Subscribe from "./components/crm/Subscribe";
-import Page404 from "./views/Page404";
+import PrivacyPolicyView from "./views/PrivacyPolicyView";
+import CareerView from "./views/CareerView";
+import Page404View from "./views/Page404View";
 
 export const router = createBrowserRouter([
   {
@@ -67,9 +69,24 @@ export const router = createBrowserRouter([
         path: "/about",
         element: <AboutView />,
       },
+            {
+        path: "/privacyPolicy",
+        element: <PrivacyPolicyView />,
+      },
+      // Carrera
       {
-        path: "/page404",
-        element: <Page404 />,
+        path: "/career",
+        element: <CareerView />,
+      },
+      // Página 404
+      {
+        path: "/page404View",
+        element: <Page404View />,
+      },
+      // 👇 Ruta comodín para páginas no encontradas
+      {
+        path: "*",
+        element: <Page404View />,
       },
     ],
   },

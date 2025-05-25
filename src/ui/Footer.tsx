@@ -17,12 +17,12 @@ const navigation = {
   company: [
     { name: "Sobre Nosotros", to: "/about" },
     { name: "Blog", to: "#" },
-    { name: "Carreras", to: "#" },
+    { name: "Carreras", to: "/career" },
     { name: "Prensa", to: "#" },
   ],
   legal: [
     { name: "Términos de Servicio", to: "#" },
-    { name: "Política de Privacidad", to: "#" },
+    { name: "Política de Privacidad", to: "/privacyPolicy" },
     { name: "Licencia", to: "#" },
   ],
   social: [

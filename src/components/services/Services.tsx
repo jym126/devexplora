@@ -3,7 +3,7 @@ export default function Services() {
     {
       name: "Aplicaciones a Medida",
       description: "Desarrollo de software personalizado para tu negocio.",
-      link: "/page404",
+      link: "/services/more",
     },
   ];
 
