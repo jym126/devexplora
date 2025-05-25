@@ -67,7 +67,7 @@ export default function Career() {
       {/* Sección de Introducción */}
       <section className="mb-12 text-center">
         <h1 className="text-4xl font-bold mb-4">
-          Únete al equipo de DevExplorar
+          Únete al equipo de DevExplora
         </h1>
         <p className="text-lg">
           En DevExplorar, creemos en el poder de la tecnología para transformar
