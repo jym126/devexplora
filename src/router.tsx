@@ -11,6 +11,7 @@ import CRMDetails from "./components/crm/CRMDetails";
 import FreeTrial from "./components/crm/FreeTrial";
 import Videos from "./components/crm/Videos";
 import Subscribe from "./components/crm/Subscribe";
+import Page404 from "./views/Page404";
 
 export const router = createBrowserRouter([
   {
@@ -65,6 +66,10 @@ export const router = createBrowserRouter([
       {
         path: "/about",
         element: <AboutView />,
+      },
+      {
+        path: "/page404",
+        element: <Page404 />,
       },
     ],
   },
