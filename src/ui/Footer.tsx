@@ -4,7 +4,7 @@ import Logo from "./Logo";
 const navigation = {
   solutions: [
     { name: "Desarrollo Web", to: "#" },
-    { name: "Enseñanza en Línea", to: "#" },
+    { name: "Enseñanza en Línea", to: "/learning" },
     { name: "Automatización de Procesos", to: "#" },
     { name: "Análisis de Datos", to: "#" },
     { name: "Consultoría", to: "#" },
