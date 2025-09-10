@@ -1,11 +1,11 @@
 export default function Page404() {
-  const products = [
-    {
-      name: "Aplicaciones a Medida",
-      description: "Desarrollo de software personalizado para tu negocio.",
-      link: "/a-medida",
-    },
-  ];
+  // const products = [
+  //   {
+  //     name: "Aplicaciones a Medida",
+  //     description: "Desarrollo de software personalizado para tu negocio.",
+  //     link: "/a-medida",
+  //   },
+  // ];
 
   return (
     <div className="relative isolate overflow-hidden bg-gray-900">
