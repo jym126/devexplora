@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Menu, MenuButton, MenuItem, MenuItems } from "@headlessui/react";
-import user from "/logoUser.svg";
+import user from "../public/logoUser.svg";
 import { Link } from "react-router-dom";
 
 function classNames(...classes: string[]) {
