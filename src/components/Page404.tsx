@@ -34,7 +34,7 @@ export default function Page404() {
         <p className="mb-6 font-medium text-white">
           Gracias por tu paciencia.
           <br />
-          Muy pronto estarás explorando una nueva forma de hacer tecnología.
+          Muy pronto estarás explorando nuevas forma de hacer tecnología.
         </p>
 
         <h2 className="text-2xl font-semibold mb-2 text-white">
